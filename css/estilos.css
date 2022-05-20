@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+font-family: 'Poppins', sans-serif;
+}
+
+.header{
+ 	position: fixed;
+ 	width: 100%;
+ 	top: 0;
+}
+.contenedor{
+	background-image: url(../assets/fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+.footer img{
+	height: 50px;
+}
+
+.titulo{
+	font-size: 3rem;
+}
+
+.bloqueprincipal{
+	padding: 150px;
+
+}
+
+.team{
+	background-image: url(../assets/team.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 850px;
+
+}
+
+.bloque{
+	width: 30%;
+}
+
+.texto{
+	line-height: 1.5;
+	font-size: 1rem;
+	font-weight: 200;
+}
+
+.footer2{
+ 	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
